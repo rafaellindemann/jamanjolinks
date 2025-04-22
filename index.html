@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jamanjo - Links Úteis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-decor">
+    <div class="leaf leaf1"></div>
+    <div class="leaf leaf2"></div>
+    <div class="leaf leaf3"></div>
+  </div>
+
+  <main class="container">
+    <h1>🌴 Jamanjo 🌴</h1>
+    <p class="tagline">Links curados para devs e aprendizes!</p>
+
+    <div class="links">
+      <a href="https://www.jamanjo.com.br" target="_blank" class="link-btn">🌐 Site Oficial</a>
+
+      <p class="repo-msg">Vai lá e deixa uma estrelinha no repo :D</p>
+      <a href="https://github.com/rafaellindemann/jamanjo" target="_blank" class="link-btn">💻 Repositório no GitHub</a>
+    </div>
+  </main>
+
+  <script>
+    // Animações flutuantes para as folhas
+    const folhas = document.querySelectorAll('.leaf');
+    folhas.forEach((folha, i) => {
+      folha.style.left = `${Math.random() * 90}%`;
+      folha.style.animationDuration = `${4 + Math.random() * 6}s`;
+    });
+  </script>
+</body>
+</html>
