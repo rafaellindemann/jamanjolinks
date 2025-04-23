@@ -12,6 +12,10 @@
     min-height: 100vh;
     position: relative;
   }
+
+  .logo-titulo{
+    width: 70%;
+  }
   
   /* Fundo animado */
   .background-decor .leaf {
